@@ -8,7 +8,8 @@
 
  :root {
     --text-color: white;
-    --bg-url: url(./assets/bg-mobile.jpg);
+   /* --bg-url: url(./assets/bg-mobile.jpg);*/
+    --bg-color: linear-gradient(173deg, #1e358f 0%, rgba(94, 35, 163, 0.83) 9.83%, rgba(125, 37, 153, 0.67) 19.67%, rgba(149, 39, 148, 0.5) 29.5%, rgba(171, 41, 143, 0.33) 39.33%, rgba(217, 46, 116, 0) 59%), radial-gradient(100% 61.5% at 16% 100%, #fdd575 0%, #f3ad2e 25%, #e08624 50%, #c31313 100%);
     --strooke-color: rgba(255, 255, 255, 0.5);
     --surface-color: rgba(255, 255, 255, 0.05);
     --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -18,7 +19,8 @@
 
  .light {
     --text-color: black; 
-    --bg-url: url(./assets/bg-mobile-light.jpg);  
+    /*--bg-url: url(./assets/bg-mobile-light.jpg); */ 
+    --bg-color: linear-gradient(221deg, #ebf4ff 21%, rgba(221, 229, 255, 0.89) 25.44%, rgba(216, 212, 255, 0.78) 29.89%, rgba(221, 190, 255, 0.67) 34.33%, rgba(238, 162, 255, 0.56) 38.78%, rgba(255, 131, 242, 0.44) 43.22%, rgba(255, 111, 210, 0.33) 47.67%, rgba(255, 87, 175, 0.22) 52.11%, rgba(255, 0, 0, 0) 61%), radial-gradient(100% 100% at 0% 100%, #fff2e5 0%, #feeadd 14.29%, #fde1d8 28.57%, #fcd9d5 42.86%, #fad0d3 57.14%, #f7c7d3 71.43%, #f1b6d7 100%), linear-gradient(163deg, #4964da 0%, rgba(146, 73, 221, 0.8) 11.8%, rgba(176, 60, 196, 0.6) 23.6%, rgba(192, 55, 173, 0.4) 35.4%, rgba(217, 46, 116, 0) 59%);
     --strooke-color: rgba(0, 0, 0, 0.5);
     --surface-color: rgba(0, 0, 0, 0.05);
     --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -27,7 +29,8 @@
  }
 
 body {
-    background: var(--bg-url) no-repeat top center/cover;
+    /*background: var(--bg-url) no-repeat top center/cover;*/
+    background: var(--bg-color);
     height: 100vh;
     
 }
